@@ -10,7 +10,7 @@ source <(curl -sL https://bit.ly/idena-manager-installer)
 
 cd ..
 
-idena-manager add -w "put_here_your_nodekey" -k "123"  
+idena-manager add -w "" -k ""  
 
 cd datadir-node1
 
