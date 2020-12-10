@@ -1,11 +1,11 @@
 #!  /usr/bin/bash
-sudo su 
-cd /home 
+sudo su
+cd /home
 mkdir idena-manager
 cd idena-manager
 source <(curl -sL https://bit.ly/idena-manager-installer)
 cd ..
-idena-manager add -w "" -k "" -l home  
+idena-manager add -w "" -k "" -l home
 cd datadir-node1
 cd idenachain.db
 sudo apt-get install unzip
