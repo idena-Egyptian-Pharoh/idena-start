@@ -16,3 +16,4 @@ unzip idenachain.db.zip
 ufw allow from any to any port 40404 proto tcp
 sudo fallocate -l 2G /swapfile2 && sudo chmod 600 /swapfile2 && sudo mkswap /sw>
 idena-manager status
+idena-manager restart
