@@ -1,3 +1,4 @@
+#!  /usr/bin/bash
 idena-manager disable
 cd /home/datadir-node1
 rm -r idenachain.db
