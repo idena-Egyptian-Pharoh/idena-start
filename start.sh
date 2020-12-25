@@ -1,5 +1,4 @@
 #!  /usr/bin/bash
-sudo su
 cd /home
 mkdir idena-manager
 cd idena-manager
