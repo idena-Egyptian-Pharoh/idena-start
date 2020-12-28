@@ -11,4 +11,3 @@ unzip idenachain.db.zip
 sudo rm idenachain.db.zip
 idena-manager enable
 idena-manager status
-sudo reboot
