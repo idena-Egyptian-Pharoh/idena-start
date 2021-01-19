@@ -18,3 +18,4 @@ unzip idenachain.db.zip
 rm idenachain.db.zip
 idena-manager enable
 idena-manager status
+idena-manager change-online-status online
