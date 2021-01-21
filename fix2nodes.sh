@@ -19,5 +19,6 @@ cp /home/datadir-node1/idenachain.db/idenachain.db.zip /home/datadir-node2/idena
 unzip idenachain.db.zip
 rm idenachain.db.zip
 idena-manager enable
+idena-manager change-online-status online 2
+idena-manager change-online-status online 1
 idena-manager status
-idena-manager change-online-status online
