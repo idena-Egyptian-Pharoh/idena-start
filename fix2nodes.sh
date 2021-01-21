@@ -1,5 +1,7 @@
 #!  /usr/bin/bash
 idena-manager disable
+rm -rf /home/datadir-node1/ipfs/*
+rm -rf /home/datadir-node2/ipfs/*
 cd /home/datadir-node1
 rm -r idenachain.db
 mkdir idenachain.db
