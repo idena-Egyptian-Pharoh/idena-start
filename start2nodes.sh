@@ -15,3 +15,4 @@ idena-manager disable
 cp /home/datadir-node1/idenachain.db/* /home/datadir-node2/idenachain.db/
 idena-manager enable
 idena-manager status
+sudo reboot
