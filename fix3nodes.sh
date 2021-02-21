@@ -15,9 +15,11 @@ rm -r idenachain.db
 mkdir idenachain.db
 cd idenachain.db
 apt-get install unzip
-cp /home/datadir-node1/idenachain.db/idenachain.db.zip /home/datadir-node2/idenachain.db/
+rm idenachain.db.zip
+idena-manager disable
+cp /home/datadir-node1/idenachain.db/* /home/datadir-node2/idenachain.db/
 unzip idenachain.db.zip
-cp /home/datadir-node1/idenachain.db/idenachain.db.zip /home/datadir-node3/idenachain.db/
+cp /home/datadir-node1/idenachain.db/* /home/datadir-node3/idenachain.db/
 unzip idenachain.db.zip
 rm idenachain.db.zip
 idena-manager enable
