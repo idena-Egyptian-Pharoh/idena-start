@@ -1,0 +1,17 @@
+{
+  "method": "dna_getBalance",
+  "params": [
+    "0x1013e96b487772e319c978d5ad60d3ba4dedb62d"
+  ],
+  "id": 2,
+  "key": ""
+}
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "stake": "345.278600390429446526",
+    "balance": "0.007346364844042613",
+    "nonce": 2
+  }
+}
