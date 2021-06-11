@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install git npm unzip curl screen -y
-echo hello to my shared node setup
 
 mkdir datadir && cd datadir
 mkdir idenachain.db && cd idenachain.db
