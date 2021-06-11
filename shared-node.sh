@@ -8,7 +8,6 @@ wget https://sync.idena-ar.com/idenachain.db.zip
 unzip -o idenachain.db.zip && rm idenachain.db.zip
 cd ..
 cd ..
-echo hello to my shared node setup
 curl -s https://api.github.com/repos/idena-network/idena-go/releases/latest \
 | grep browser_download_url \
 | grep idena-node-linux-0.* \
