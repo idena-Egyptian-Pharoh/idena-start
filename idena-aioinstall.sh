@@ -10,3 +10,4 @@ mv /root/idena-aio-main/* /home/idena-aio
 cp /home/idena-aio/start.sh /root/idena-aio.sh
 sudo rm /root/main.zip
 sudo rm -r /root/idena-aio-main
+bash /root/idena-aio.sh
