@@ -2,6 +2,7 @@ reset
 sudo rm -r /home/idena-aio
 rm /root/main.zip
 rm /root/idena-aio.sh
+rm -r /home/idena-aio/*
 wget https://github.com/idena-Egyptian-Pharoh/idena-aio/archive/refs/heads/main.zip
 sudo apt-get install unzip
 unzip main.zip 
