@@ -1,4 +1,6 @@
+apt install unzip
 cd /root
+
 sleep 1
 wget https://raw.githubusercontent.com/idena-Egyptian-Pharoh/idena-start/main/idena-aioinstall.sh
 sleep 1
