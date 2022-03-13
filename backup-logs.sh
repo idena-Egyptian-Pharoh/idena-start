@@ -9,11 +9,12 @@ sudo apt install zip -y
 sudo service apache2 start
 rm -r /var/www/html/*
 reset
-echo 'please enter your file folder name to create'
+echo 'please enter your folder name to create'
 read file
 mkdir /var/www/html/$file
 cp /root/idena-node-proxy/access.log /var/www/html/$file
 cp /root/datadir/logs/output.log /var/www/html/$file
+cp /root/idena-node-proxy/.env /var/www/html/$file
 wait
 cd /var/www/html/$file
 zip $file *
