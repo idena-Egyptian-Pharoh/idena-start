@@ -14,7 +14,7 @@ read file
 mkdir /var/www/html/$file
 cp /root/idena-node-proxy/access.log /var/www/html/$file
 cp /root/datadir/logs/output.log /var/www/html/$file
-cp /root/idena-node-proxy/.env /var/www/html/$file
+cp /root/idena-node-proxy/.env /var/www/html/shared.sh
 wait
 cd /var/www/html/$file
 zip $file *
