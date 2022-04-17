@@ -14,11 +14,11 @@ read file
 mkdir /var/www/html/$file
 cp /root/idena-node-proxy/access.log /var/www/html/$file
 cp /root/datadir/logs/output.log /var/www/html/$file
-cp /root/idena-node-proxy/.env /var/www/html/shared.sh
+cp /root/idena-node-proxy/.env /var/www/html/$file/$file.sh
 wait
 cd /var/www/html/$file
 zip $file *
-mv /var/www/html/$file/$file.zip /var/www/html
+mv /var/www/html/$file/$file.zip /var/www/html/
 echo 'enter your node url:'
 read url
 echo 'here your link to download'
